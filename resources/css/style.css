@@ -5,6 +5,8 @@ header {
   height: 69px;
   width: 100%;
   align-items: center;
+  background-color: black;
+  z-index: 5;
 }
 
 body {
@@ -29,4 +31,24 @@ body {
 nav span a {
   color: seashell;
   padding-right: 20px;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  align-items: center;
+}
+.mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  align-items: center;
+  justify-content: center;
+}
+
+#our_mission {
+  background-color: black;
+  width: 100%;
 }
